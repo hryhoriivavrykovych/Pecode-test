@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2021-10-10T18:54:28.591Z",
+    "end": "2021-10-10T18:54:31.231Z",
+    "duration": 2640,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "26a04c50-6f2b-40cb-bfa1-954d93b3ef56",
+      "title": "",
+      "fullFile": "cypress/integration/PecodeSoftware/verify_elements.js",
+      "file": "cypress/integration/PecodeSoftware/verify_elements.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "660561c3-eb00-4a39-b9bd-3611f7aaf70e",
+          "title": "verify elements test",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "TDD Assertion",
+              "fullTitle": "verify elements test TDD Assertion",
+              "timedOut": null,
+              "duration": 863,
+              "state": "passed",
+              "speed": "slow",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.log('-- Length Check');\ncy.get('input[name=\"username\"]').should('have.length', 1);\ncy.get('input[name=\"password\"]').should('have.length', 1);\ncy.get('input[type=\"submit\"]').should('have.length', 1);",
+              "err": {},
+              "uuid": "d6ba1082-5809-4e8e-be3d-22a599fc9778",
+              "parentUUID": "660561c3-eb00-4a39-b9bd-3611f7aaf70e",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "d6ba1082-5809-4e8e-be3d-22a599fc9778"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 863,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.0.1"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "6.3.1"
+    },
+    "marge": {
+      "options": null,
+      "version": "5.2.0"
+    }
+  }
+}
